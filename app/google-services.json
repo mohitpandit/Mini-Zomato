@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926107428607",
+    "firebase_url": "https://mini-zomato.firebaseio.com",
+    "project_id": "mini-zomato",
+    "storage_bucket": "mini-zomato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926107428607:android:8a6e1f8bd0b530392f0eca",
+        "android_client_info": {
+          "package_name": "com.mohit.minizomato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926107428607-jeqvml61l0ame1br4a0ht8l3s62irio0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBPGPz70r58wnRIHB7qvLgobzlD-ndMBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926107428607-jeqvml61l0ame1br4a0ht8l3s62irio0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

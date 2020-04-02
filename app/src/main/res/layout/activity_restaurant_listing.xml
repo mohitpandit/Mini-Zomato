@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvHeader"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:textColor="@color/black"
+        android:text="@string/zomato_search_api"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/llSearch"
+        android:layout_marginBottom="4dp"
+        android:layout_margin="4dp"
+        android:layout_below="@id/tvHeader"
+        android:padding="6dp"
+        android:gravity="center"
+        android:background="@drawable/background_rectange"
+        android:layout_height="wrap_content">
+
+        <EditText
+            style="@style/searchEditText"
+            android:layout_width="0dp"
+            android:hint="@string/search_something"
+            android:layout_weight="1"
+            android:id="@+id/etSearch"
+            android:imeOptions="actionSearch" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:focusable="true"
+            android:src="@mipmap/search"
+            android:padding="2dp"
+            android:id="@+id/ivSearch"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvFavoriteRestaurants"
+        android:text="@string/favorite_restaurants"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:padding="6dp"
+        android:layout_below="@id/llSearch"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rvRestaurant"
+        android:layout_below="@id/tvFavoriteRestaurants"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@mipmap/ic_sort"
+        android:id="@+id/ivSort"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_height="40dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbLoading"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

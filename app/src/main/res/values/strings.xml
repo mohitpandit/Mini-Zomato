@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mini Zomato</string>
+    <string name="search">Search</string>
+    <string name="search_something">Search Something...</string>
+    <string name="sort">Sort</string>
+    <string name="popularity">Popularity</string>
+    <string name="price_low_to_high">Price Low to High</string>
+    <string name="price_high_to_low">Price High to Low</string>
+    <string name="rating_high_to_low">Rating High to Low</string>
+    <string name="zomato_search_api">Zomato Search API</string>
+    <string name="favorite_restaurants">Favorite Restaurants</string>
+</resources>
